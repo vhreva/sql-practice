@@ -11,6 +11,9 @@ CREATE TABLE Products (
 	Price MONEY
 )
 
+--Створюємо індекс для для продуктів щоб зменшити час пошуку товарів за їхньою назвою
+CREATE INDEX idx_ProductName ON products (ProductName);
+
 CREATE TABLE Orders (
 	OrderID INT IDENTITY PRIMARY KEY,
 	CustomerID INT,
