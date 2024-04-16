@@ -13,7 +13,7 @@ I used the following tables:
 ## Examples of data
 
 ### Products
-
+_____________________________________________________
 | ProductID | ProductName     | CategoryID | Price  |
 |-----------|-----------------|------------|--------|
 | 1         | Laptop          | 1          | 800.00 |
@@ -23,7 +23,7 @@ I used the following tables:
 | 5         | Wireless Mouse  | 2          | 20.00  |
 
 ### Customers
-
+____________________________________________________________________
 | CustomerID | CustomerName     | Email             | Phone        |
 |------------|------------------|-------------------|--------------|
 | 1          | John Smith       | john@example.com  | 123-456-7890 |
