@@ -28,13 +28,7 @@ INSERT INTO Order_status VALUES
 	('Shipped'),
 	('Delivered')
 
-INSERT INTO Order_details VALUES 
-	('New'),
-	('Processing'),
-	('Shipped'),
-	('Delivered')
-
-INSERT INTO order_details VALUES
+INSERT INTO Order_details VALUES
 	(1, 4, 1, 349.00),
 	(3, 5, 1, 210.00),
 	(4, 6, 1, 199.99),
